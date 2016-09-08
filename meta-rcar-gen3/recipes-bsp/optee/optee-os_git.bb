@@ -19,7 +19,7 @@ SRC_URI += " \
 
 PV = "1.0.0+renesas+git${SRCPV}"
 
-COMPATIBLE_MACHINE = "(salvator-x|h3ulcb)"
+COMPATIBLE_MACHINE = "salvator-x"
 PLATFORM = "rcar"
 
 export CROSS_COMPILE="${TARGET_PREFIX}"
